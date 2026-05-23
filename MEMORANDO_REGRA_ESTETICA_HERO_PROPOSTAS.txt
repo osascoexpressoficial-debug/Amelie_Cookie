@@ -1,0 +1,45 @@
+MEMORANDO — REGRA ESTÉTICA DO HERO EM PROPOSTAS OSASCO EXPRESS
+
+Problema identificado:
+Em algumas propostas, o título principal do hero ficou desproporcional, ocupando muitas linhas e deixando a primeira dobra pesada. Isso prejudica a leitura, reduz a percepção premium e faz a proposta parecer menos sênior.
+
+Regra obrigatória:
+Sempre que o título principal estiver grande demais, quebrando em muitas linhas ou dominando a tela, NÃO reduzir apenas a fonte.
+
+A correção correta é:
+1. Reescrever o gancho para uma frase mais curta, forte e premium.
+2. Colocar a explicação no subtítulo.
+3. Garantir equilíbrio entre texto, imagem, respiro e CTA.
+4. Validar o hero no desktop comum e no celular antes de entregar.
+
+Especialistas que devem atuar:
+1. Diretor de Arte Digital
+   Responsável por proporção, estética, equilíbrio visual, primeira impressão e sensação premium.
+
+2. UX/UI Designer Sênior
+   Responsável por hierarquia, leitura rápida, respiro, grid, cards e comportamento mobile-first.
+
+3. Front-end Responsivo/Mobile-first
+   Responsável por garantir que o título, imagem, botões, menu e seções não quebrem em 1366x768, notebook, tablet e celular.
+
+4. UX Writer / Copy Sênior
+   Responsável por transformar título longo em gancho curto, mantendo a ideia comercial no subtítulo.
+
+Regra prática:
+Hero aprovado deve ter:
+- título com no máximo 2 a 3 linhas no desktop comum;
+- título legível sem parecer cartaz exagerado;
+- subtítulo explicando a proposta;
+- imagem proporcional;
+- respiro visual suficiente;
+- CTA sem poluir a primeira dobra;
+- versão mobile sem scroll lateral e sem título esmagado.
+
+Exemplo aplicado na Amélie:
+Antes:
+“A entrega também precisa carregar o cuidado da Amélie.”
+
+Depois:
+“Entrega com cuidado de marca.”
+
+A explicação saiu do título e foi para o subtítulo.
