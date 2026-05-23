@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proposta Comercial | Amélie Cookie Shop × Osasco Express</title>
+<meta name="description" content="Proposta comercial da Osasco Express para a Amélie Cookie Shop, com foco em cuidado no transporte, compromisso com horário e clareza operacional.">
+<style>
+:root{
+  --green:#263a12; --green2:#314917; --cream:#fff8ec; --paper:#fffdf7;
+  --rose:#e6a6a0; --rose2:#c97973; --gold:#d8b979; --ink:#24180f;
+  --muted:#6e6255; --line:#ead8c3; --shadow:0 24px 70px rgba(36,24,15,.14);
+  --soft:0 14px 38px rgba(36,24,15,.08); --radius:28px; --max:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:radial-gradient(circle at 88% 0%,rgba(230,166,160,.28),transparent 26%),
+  radial-gradient(circle at 4% 18%,rgba(216,185,121,.20),transparent 24%),
+  linear-gradient(180deg,#fffaf2 0%,#fff8ec 54%,#f8efe2 100%);
+  color:var(--ink); line-height:1.62; overflow-x:hidden; -webkit-font-smoothing:antialiased;
+}
+a{text-decoration:none;color:inherit} img{display:block;max-width:100%;height:auto}
+.wrap{width:min(var(--max),100%);margin:auto;padding:0 clamp(16px,4vw,24px)}
+.topbar{position:sticky;top:0;z-index:99;background:rgba(255,250,242,.9);backdrop-filter:blur(16px);border-bottom:1px solid rgba(38,58,18,.12)}
+.topbar-inner{width:min(var(--max),100%);margin:auto;padding:12px clamp(16px,4vw,24px);display:flex;align-items:center;justify-content:space-between;gap:14px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:900;color:var(--green);white-space:nowrap}
+.brand-mark{width:40px;height:40px;border-radius:13px;background:var(--green);display:grid;place-items:center;overflow:hidden;border:1px solid rgba(38,58,18,.18)}
+.brand-mark img{width:100%;height:100%;object-fit:cover}.brand em{font-style:normal;color:var(--rose2)}
+.nav{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.nav a{font-size:12px;font-weight:900;color:var(--muted);padding:8px 11px;border-radius:999px}.nav .primary{background:var(--green);color:#fff}
+.section{padding:74px 0}.section-tight{padding:54px 0}
+.kicker{display:inline-flex;align-items:center;gap:10px;color:var(--rose2);font-size:11px;font-weight:900;letter-spacing:.15em;text-transform:uppercase;margin-bottom:14px}.kicker:before{content:"";width:30px;height:3px;border-radius:99px;background:currentColor}
+h1,h2,h3{font-weight:900;letter-spacing:-.045em;line-height:1.04;color:var(--green)}
+h1{font-size:clamp(40px,6.1vw,76px);max-width:760px}h2{font-size:clamp(30px,4.6vw,52px);max-width:900px}h3{font-size:23px}
+p{color:var(--muted)}strong{font-weight:900;color:inherit}
+.hero{padding:76px 0 66px;overflow:hidden;border-bottom:1px solid rgba(38,58,18,.10)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,.98fr) minmax(320px,1.02fr);gap:clamp(28px,4.5vw,56px);align-items:center}
+.badge{display:inline-flex;width:fit-content;max-width:100%;padding:10px 14px;border:1px solid rgba(201,121,115,.34);border-radius:999px;background:rgba(255,255,255,.64);color:var(--green);font-size:12px;font-weight:900;line-height:1.2;margin-bottom:18px}
+.hero h1 span{color:var(--rose2)}.lead{font-size:17px;line-height:1.78;max-width:730px;margin-top:18px;color:var(--muted)}
+.hero-img{border-radius:34px;overflow:hidden;box-shadow:var(--shadow);border:1px solid rgba(38,58,18,.14);background:#fff}.hero-img img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:15px 22px;font-size:14px;font-weight:900;transition:.18s ease;text-align:center}.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--green);color:#fff;box-shadow:0 18px 36px rgba(38,58,18,.22)}.btn-secondary{background:#fff;color:var(--green);border:1px solid var(--line)}
+.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}
+.note{margin-top:18px;background:#fff;border:1px solid var(--line);border-left:4px solid var(--rose2);border-radius:0 18px 18px 0;padding:16px 18px;color:var(--muted);font-size:14px;line-height:1.72}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.card,.day,.tax-card,.price-card,.step,.plan{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--soft);min-width:0;color:var(--ink)}
+.card{padding:24px}.card h3{font-size:21px;margin-bottom:8px;color:var(--green)}.card p,.step p,.price-body p{font-size:14px;line-height:1.7;color:var(--muted)}
+.icon{width:46px;height:46px;border-radius:16px;background:#f8e5df;color:var(--rose2);display:grid;place-items:center;margin-bottom:15px;font-size:22px;font-weight:900}
+.light{background:rgba(255,255,255,.48)}.section-head{max-width:900px;margin-bottom:28px}.section-lead{font-size:15.5px;line-height:1.78;max-width:800px;margin-top:12px;color:var(--muted)}
+.plan-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.plan{position:relative;padding:24px;border-radius:24px}.plan.hot{border:2px solid var(--rose2);background:#fff8f7}
+.tag{display:inline-flex;padding:7px 12px;border-radius:999px;background:var(--rose2);color:#fff;font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.08em;margin-bottom:12px}
+.num{font-size:clamp(31px,3.7vw,43px);font-weight:900;color:var(--green);letter-spacing:-.045em;line-height:1}.label{font-size:12px;color:var(--rose2);font-weight:900;text-transform:uppercase;letter-spacing:.11em;margin:10px 0 8px}.plan p{font-size:13px;line-height:1.65}
+.notice{background:#fff;border:1px solid rgba(201,121,115,.44);border-left:4px solid var(--rose2);border-radius:0 20px 20px 0;padding:18px 20px;color:var(--muted)}
+.scale-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.day{padding:20px}.day h3{font-size:22px;margin-bottom:14px;color:var(--green)}
+.shift{background:#fff;border:1px solid var(--line);border-radius:18px;padding:15px;margin-bottom:12px}.qtd{font-size:34px;font-weight:900;color:var(--rose2);line-height:1}.turno{font-size:13px;font-weight:900;color:var(--green);margin-top:4px}.hora{font-size:12px;color:var(--muted)}
+.price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.price-card{overflow:hidden}.price-head{padding:16px 18px;border-bottom:1px solid var(--line);font-size:13px;text-transform:uppercase;letter-spacing:.08em;font-weight:900;color:var(--green);background:#fff3ed}.price-body{padding:22px}
+.price{font-size:46px;font-weight:900;letter-spacing:-.055em;line-height:1;color:var(--rose2)}.price span{font-size:15px;color:var(--muted);font-weight:800;letter-spacing:0}
+details{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--soft);overflow:hidden;color:var(--ink)}summary{cursor:pointer;padding:20px 24px;font-weight:900;background:var(--green);color:#fff;list-style:none}summary::-webkit-details-marker{display:none}
+.tax-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:18px}.tax-card{overflow:hidden;border-radius:22px;box-shadow:none}.tax-head{padding:14px 16px;font-size:14px;font-weight:900;background:var(--green);color:#fff}.tax-row{display:flex;justify-content:space-between;gap:10px;padding:10px 16px;border-bottom:1px solid var(--line);font-size:13px}.tax-row:nth-child(even){background:#fff8f0}
+.flow{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.step{padding:22px}.step .n{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:#fff;font-weight:900;margin-bottom:14px}
+.cta{background:linear-gradient(135deg,var(--green) 0%,#16250a 100%);color:#fff;text-align:center}.cta h2{color:#fff;margin:auto}.cta p{color:rgba(255,255,255,.82);font-size:15.5px;line-height:1.8;max-width:720px;margin:16px auto 28px}
+footer{padding:34px 0;background:#142207;color:#fff}.footer{display:flex;justify-content:space-between;gap:20px;align-items:flex-end;flex-wrap:wrap}footer small{font-size:11px;color:rgba(255,255,255,.56);line-height:1.65}
+.fade{opacity:0;transform:translateY(18px);transition:.5s ease}.fade.in{opacity:1;transform:none}
+@media(max-width:980px){.hero-grid{grid-template-columns:1fr}.grid-3,.grid-4,.plan-grid,.scale-grid,.price-grid,.flow{grid-template-columns:repeat(2,1fr)}.tax-grid{grid-template-columns:1fr}.hero-img{max-width:740px;margin:auto}}
+@media(max-width:640px){.topbar-inner{align-items:flex-start;flex-direction:column}.nav{width:100%;overflow:auto;flex-wrap:nowrap}.nav a{flex:0 0 auto;font-size:11.5px}.section{padding:50px 0}.section-tight{padding:40px 0}.hero{padding:42px 0}h1{font-size:clamp(34px,11vw,42px)}h2{font-size:clamp(28px,8.5vw,36px)}.lead,.section-lead{font-size:14.5px;line-height:1.72}.grid-3,.grid-4,.plan-grid,.scale-grid,.price-grid,.flow{grid-template-columns:1fr}.card,.day,.step,.plan{border-radius:21px;padding:18px}.hero-actions .btn{width:100%;border-radius:14px}.hero-img{border-radius:22px}.price{font-size:38px}.tax-grid{padding:12px}.brand{font-size:14px;white-space:normal}}
+
+/* UX PRODUCTER MOBILE — alinhamento final */
+html,body{max-width:100%;overflow-x:hidden}
+*{min-width:0}
+.wrap,.topbar-inner{max-width:100%}
+img,video,iframe,svg{max-width:100%;height:auto}
+@media(max-width:760px){
+  .topbar{position:sticky}
+  .topbar-inner{
+    padding:10px 14px;
+    gap:10px;
+  }
+  .brand{
+    width:100%;
+    white-space:normal;
+    line-height:1.15;
+    font-size:13.5px;
+  }
+  .brand-mark{
+    width:34px;
+    height:34px;
+    border-radius:11px;
+    flex:0 0 34px;
+  }
+  .nav{
+    width:100%;
+    overflow-x:auto;
+    flex-wrap:nowrap;
+    gap:6px;
+    padding-bottom:2px;
+    scrollbar-width:none;
+  }
+  .nav::-webkit-scrollbar{display:none}
+  .nav a{
+    flex:0 0 auto;
+    font-size:11px;
+    padding:7px 10px;
+  }
+  .hero{
+    padding:34px 0 42px;
+  }
+  .hero-grid{
+    gap:24px;
+  }
+  .badge{
+    font-size:11px;
+    line-height:1.3;
+    padding:9px 12px;
+    margin-bottom:14px;
+  }
+  .kicker{
+    font-size:10px;
+    letter-spacing:.13em;
+    margin-bottom:10px;
+  }
+  .kicker:before{
+    width:22px;
+    height:2px;
+  }
+  h1{
+    font-size:clamp(32px,10.4vw,42px);
+    line-height:1.02;
+    letter-spacing:-.055em;
+  }
+  h2{
+    font-size:clamp(27px,8.2vw,35px);
+    line-height:1.06;
+    letter-spacing:-.052em;
+  }
+  h3{
+    font-size:20px;
+    line-height:1.12;
+  }
+  .lead,.section-lead{
+    font-size:14px;
+    line-height:1.68;
+    margin-top:14px;
+  }
+  .hero-actions{
+    display:none;
+  }
+  .note,.notice{
+    font-size:13.5px;
+    line-height:1.62;
+    padding:14px 15px;
+    border-radius:0 16px 16px 0;
+  }
+  .hero-img{
+    border-radius:20px;
+  }
+  .hero-img img{
+    aspect-ratio:1/1;
+    object-fit:cover;
+  }
+  .section,.section-tight{
+    padding:42px 0;
+  }
+  .section-head{
+    margin-bottom:20px;
+  }
+  .grid-3,.grid-4,.plan-grid,.scale-grid,.price-grid,.flow{
+    grid-template-columns:1fr;
+    gap:12px;
+  }
+  .card,.day,.step,.plan{
+    padding:17px;
+    border-radius:19px;
+  }
+  .icon{
+    width:40px;
+    height:40px;
+    border-radius:14px;
+    margin-bottom:12px;
+  }
+  .plan.hot{
+    order:-1;
+  }
+  .plan .num,.num{
+    font-size:36px;
+  }
+  .tag{
+    font-size:9.5px;
+    padding:6px 10px;
+    margin-bottom:10px;
+  }
+  .label{
+    font-size:11px;
+    margin:8px 0 7px;
+  }
+  .plan p,.card p,.day p,.step p,.price-body p{
+    font-size:13.2px;
+    line-height:1.58;
+  }
+  .shift{
+    display:grid;
+    grid-template-columns:58px 1fr;
+    column-gap:12px;
+    align-items:center;
+    padding:13px;
+    border-radius:15px;
+  }
+  .qtd{
+    grid-row:1 / span 3;
+    font-size:30px;
+  }
+  .turno{
+    margin-top:0;
+  }
+  .price-card{
+    border-radius:19px;
+  }
+  .price-head{
+    padding:13px 15px;
+    font-size:11.5px;
+  }
+  .price-body{
+    padding:17px;
+  }
+  .price{
+    font-size:37px;
+  }
+  summary{
+    padding:16px 17px;
+    font-size:14px;
+  }
+  .tax-grid{
+    padding:10px;
+    gap:12px;
+  }
+  .tax-head{
+    font-size:13px;
+    line-height:1.25;
+    padding:12px 13px;
+  }
+  .tax-row{
+    font-size:12.5px;
+    padding:9px 13px;
+  }
+  .cta{
+    text-align:left;
+  }
+  .cta .wrap{
+    padding-left:18px;
+    padding-right:18px;
+  }
+  .cta p{
+    font-size:14px;
+    line-height:1.65;
+    margin:14px 0 22px;
+  }
+  .cta .btn{
+    width:100%;
+    border-radius:15px;
+  }
+  footer{
+    padding:28px 0 24px;
+  }
+  .footer{
+    align-items:flex-start;
+  }
+}
+@media(max-width:390px){
+  .wrap{
+    padding-left:13px;
+    padding-right:13px;
+  }
+  h1{font-size:31px}
+  h2{font-size:26px}
+  .brand{font-size:12.8px}
+  .nav a{font-size:10.5px;padding:7px 9px}
+  .price{font-size:34px}
+  .plan .num,.num{font-size:33px}
+}
+@media(max-width:340px){
+  .brand-mark{display:none}
+  h1{font-size:29px}
+  h2{font-size:24px}
+}
+
+</style>
+</head>
+<body id="top">
+<nav class="topbar"><div class="topbar-inner"><a class="brand" href="#top"><span class="brand-mark"><img src="assets/amelie-logo.png" alt="Logo Amélie"></span>Amélie Cookie Shop <em>×</em> Osasco Express</a><div class="nav"><a href="#solucao">Solução</a><a href="#modelo">Modelo</a><a href="#valores">Valores</a><a class="primary" href="#validar">Validar</a></div></div></nav>
+<header class="hero"><div class="wrap hero-grid"><div class="fade"><div class="badge">Proposta comercial para Nayara • Amélie Cookie Shop</div><p class="kicker">Entrega com cuidado de marca</p><h1>A entrega também precisa carregar <span>o cuidado da Amélie.</span></h1><p class="lead">Nayara, a Amélie vende carinho em forma de cookie. A proposta abaixo organiza a parte da entrega com parceiros por turno, cuidado no transporte, clareza de custos e suporte operacional. Como ainda não temos o volume real de pedidos, o modelo entra como base inicial para validação.</p><div class="hero-actions"><a class="btn btn-primary" href="#valores">Ver valores</a><a class="btn btn-secondary" href="#modelo">Ver modelo inicial</a></div><div class="note"><strong>Ponto principal:</strong> quem compra da Amélie espera cuidado do pedido até a chegada. A entrega precisa preservar o produto, o horário combinado e a confiança da cliente final.</div></div><div class="hero-img fade"><img src="assets/amelie-fotos-produtos.png" alt="Produtos e identidade visual da Amélie Cookie Shop"></div></div></header>
+<main>
+<section class="section-tight light" id="solucao"><div class="wrap"><div class="section-head fade"><p class="kicker">A dor que a proposta resolve</p><h2>A entrega precisa manter a mesma sensação boa que começa no pedido.</h2><p class="section-lead">Na Amélie, o produto chega com expectativa: pode ser presente, sobremesa, mimo ou aquela vontade do dia. Por isso, a operação de entrega precisa ser tratada com cuidado, horário combinado e acompanhamento, sem jogar mais preocupação para a Nayara.</p></div><div class="grid-3"><article class="card fade"><div class="icon">♡</div><h3>Cuidado com o produto</h3><p>A entrega precisa respeitar embalagem, apresentação e a experiência que a marca promete.</p></article><article class="card fade"><div class="icon">⏱</div><h3>Compromisso com horário</h3><p>A cobertura é organizada por horário para reduzir improviso e dar mais previsibilidade.</p></article><article class="card fade"><div class="icon">✓</div><h3>Segurança operacional</h3><p>Comunicação, acompanhamento e fechamento claro para a Nayara não carregar a operação sozinha.</p></article></div></div></section>
+<section class="section-tight" id="incluso"><div class="wrap"><div class="section-head fade"><p class="kicker">O que está incluso</p><h2>Motoboys para delivery, com cuidado operacional por trás.</h2></div><div class="grid-4"><article class="card fade"><h3>Parceiros por turno</h3><p>Parceiros organizados conforme os horários que fizerem sentido para a rotina da Amélie.</p></article><article class="card fade"><h3>Suporte operacional</h3><p>Canal de comunicação para acompanhar a operação, alinhar ocorrências e dar resposta com mais segurança.</p></article><article class="card fade"><h3>Fechamento claro</h3><p>Diárias, taxas por km e plano apresentados separadamente, sem confundir o custo da operação.</p></article><article class="card fade"><h3>Ajuste com dados</h3><p>Com o volume real, ajustamos a cobertura para evitar excesso de parceiro parado e reduzir risco no pico.</p></article></div></div></section>
+<section class="section light" id="modelo"><div class="wrap"><div class="section-head fade"><p class="kicker">Modelo inicial recomendado</p><h2>Começamos com uma base responsável e ajustamos com o volume real.</h2><p class="section-lead">Como a quantidade de entregas ainda não foi informada, a recomendação é validar uma cobertura inicial por turnos de 6 horas, sem cravar uma escala maior do que a operação precisa. A quantidade de parceiros deve ser definida antes do contrato, considerando horários de venda, raio atendido e volume médio.</p></div><div class="scale-grid fade"><div class="day"><h3>Segunda a quinta</h3><div class="shift"><div class="qtd">1+</div><div class="turno">Base de operação</div><div class="hora">turno de 6 horas</div></div><p>Base inicial para dias de menor pressão, com ajuste conforme comportamento dos pedidos.</p></div><div class="day"><h3>Sexta a domingo</h3><div class="shift"><div class="qtd">1+</div><div class="turno">Base reforçada</div><div class="hora">turno de 6 horas</div></div><p>Base para dias com maior chance de demanda, presentes, encomendas e pedidos de fim de semana.</p></div><div class="day"><h3>Feriados</h3><div class="shift"><div class="qtd">sob análise</div><div class="turno">Cobertura especial</div><div class="hora">conforme campanha e volume</div></div><p>Datas especiais devem ser combinadas antes, principalmente em ações, datas comemorativas e campanhas.</p></div></div><div class="notice fade" style="margin-top:18px"><strong>Sem volume informado, a escala não deve ser definitiva.</strong> O mais seguro é começar com uma base responsável, medir o comportamento real e ajustar para não deixar parceiro parado nem faltar cobertura em horário crítico.</div></div></section>
+<section class="section-tight" id="planos"><div class="wrap"><div class="section-head fade"><p class="kicker">Planos de gestão logística</p><h2>A régua de planos ajuda a deixar a contratação clara.</h2><p class="section-lead">O plano final depende do volume mensal real da Amélie. Como ainda não temos a quantidade de entregas, o Plano Básico aparece como referência inicial para começar com clareza e ajustar se o volume crescer.</p></div><div class="plan-grid fade"><div class="plan hot"><div class="tag">plano indicado</div><div class="num">R$ 699</div><div class="label">Plano Básico</div><p>Até 800 entregas mensais. Referência inicial para a Amélie começar com clareza enquanto o volume real é validado.</p></div><div class="plan"><div class="num">R$ 1.299</div><div class="label">Plano Médio</div><p>Até 1.300 entregas mensais, com maior rotina de acompanhamento operacional.</p></div><div class="plan"><div class="num">R$ 1.599</div><div class="label">Plano Contratado</div><p>Até 1.800 entregas mensais, para operações com volume mais constante.</p></div><div class="plan"><div class="num" style="font-size:30px">Sob consulta</div><div class="label">Plano Avançado</div><p>Para operações com maior volume ou necessidade de acompanhamento mais próximo.</p></div></div></div></section>
+<section class="section light" id="valores"><div class="wrap"><div class="section-head fade"><p class="kicker">Valores e apuração</p><h2>A Nayara consegue enxergar cada custo antes de começar.</h2><p class="section-lead">Diárias dos parceiros, taxas variáveis por km e plano de gestão aparecem separados. Assim a Amélie sabe o que é cobertura de motoboy, o que varia por entrega e o que é acompanhamento operacional.</p></div><div class="price-grid fade"><article class="price-card"><div class="price-head">Segunda a quinta</div><div class="price-body"><div class="price">R$ 60 <span>/6h</span></div><p>Por parceiro em diária de seis horas.</p></div></article><article class="price-card"><div class="price-head">Sexta a domingo + feriados</div><div class="price-body"><div class="price">R$ 70 <span>/6h</span></div><p>Por parceiro nos dias de maior movimento.</p></div></article><article class="price-card"><div class="price-head">Taxas de entrega</div><div class="price-body"><div class="price">Variável</div><p>Segue o km de cada entrega realizada.</p></div></article></div><div style="margin-top:20px"><details class="fade" open><summary>Ver taxas variáveis por km</summary><div class="tax-grid"><article class="tax-card"><div class="tax-head">Segunda a quinta</div><div class="tax-row"><span>1 km</span><b>R$ 6,00</b></div><div class="tax-row"><span>2 km</span><b>R$ 6,00</b></div><div class="tax-row"><span>3 km</span><b>R$ 6,00</b></div><div class="tax-row"><span>4 km</span><b>R$ 7,00</b></div><div class="tax-row"><span>5 km</span><b>R$ 7,00</b></div><div class="tax-row"><span>6 km</span><b>R$ 8,00</b></div><div class="tax-row"><span>7 km</span><b>R$ 10,00</b></div><div class="tax-row"><span>8 km</span><b>R$ 11,00</b></div><div class="tax-row"><span>9 km</span><b>R$ 12,00</b></div><div class="tax-row"><span>10 km</span><b>R$ 14,00</b></div><div class="tax-row"><span>11 km</span><b>R$ 14,00</b></div><div class="tax-row"><span>12 km</span><b>R$ 15,00</b></div><div class="tax-row"><span>13 km</span><b>R$ 15,00</b></div></article><article class="tax-card"><div class="tax-head">Sexta a domingo + feriados</div><div class="tax-row"><span>1 km</span><b>R$ 8,00</b></div><div class="tax-row"><span>2 km</span><b>R$ 8,00</b></div><div class="tax-row"><span>3 km</span><b>R$ 8,00</b></div><div class="tax-row"><span>4 km</span><b>R$ 9,00</b></div><div class="tax-row"><span>5 km</span><b>R$ 10,00</b></div><div class="tax-row"><span>6 km</span><b>R$ 10,00</b></div><div class="tax-row"><span>7 km</span><b>R$ 12,00</b></div><div class="tax-row"><span>8 km</span><b>R$ 13,00</b></div><div class="tax-row"><span>9 km</span><b>R$ 14,00</b></div><div class="tax-row"><span>10 km</span><b>R$ 16,00</b></div><div class="tax-row"><span>11 km</span><b>R$ 16,00</b></div><div class="tax-row"><span>12 km</span><b>R$ 16,00</b></div><div class="tax-row"><span>13 km</span><b>R$ 20,00</b></div></article></div></details></div></div></section>
+<section class="section-tight" id="implantacao"><div class="wrap"><div class="section-head fade"><p class="kicker">Da validação ao início</p><h2>Depois da validação, a implantação acontece com cuidado e sem improviso.</h2></div><div class="flow fade"><div class="step"><div class="n">1</div><h3>Validação</h3><p>Nayara confirma horários, raio de entrega, volume aproximado e canais de venda.</p></div><div class="step"><div class="n">2</div><h3>Contrato</h3><p>Formalização do plano, diárias, taxas por km, responsabilidades e início combinado.</p></div><div class="step"><div class="n">3</div><h3>Início</h3><p>Organização dos parceiros, canal de suporte e acompanhamento dos primeiros ciclos.</p></div></div></div></section>
+<section class="section cta" id="validar"><div class="wrap"><p class="kicker" style="color:#f4d4bb">Próximo passo</p><h2>Nayara, vamos começar com clareza e ajustar a cobertura certa.</h2><p>A proposta já deixa claros os valores de diária, km e plano. O próximo passo é validar quantidade de pedidos, horários de maior movimento e raio de entrega para montar uma cobertura sem excesso e sem improviso.</p><a class="btn btn-primary" href="https://wa.me/11924782555?text=Ol%C3%A1%2C+recebi+a+proposta+da+Am%C3%A9lie+Cookie+Shop+e+quero+validar+os+hor%C3%A1rios+de+cobertura." target="_blank">Validar pelo WhatsApp</a></div></section>
+</main>
+<footer><div class="wrap footer"><div><strong>Osasco Express</strong><br><small>Gestão logística de delivery para restaurantes, confeitarias e operações locais.</small></div><small>Proposta para Amélie Cookie Shop<br>Responsável: Nayara<br>Valores sujeitos à formalização contratual.</small></div></footer>
+<script>const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.12});document.querySelectorAll('.fade').forEach(el=>io.observe(el));</script>
+</body></html>
